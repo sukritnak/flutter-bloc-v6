@@ -21,3 +21,21 @@ class LoadedCounterState extends CounterState {
   @override
   String toString() => "LoadedCounterState $count";
 }
+
+class SaveCounterState extends CounterState {
+  final int count;
+
+  SaveCounterState(this.count);
+
+  @override
+  String toString() => "SaveCounterState $count";
+}
+
+class ErrorCounterState extends CounterState {
+  final String error;
+
+  ErrorCounterState(this.error);
+
+  @override
+  String toString() => "ErrorCounterState $error";
+}
