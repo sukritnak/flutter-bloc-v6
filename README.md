@@ -4,4 +4,4 @@ A new Flutter project.
 
 ## Getting Started
 
-The propose just Prove of concept for flutter bloc version 6
+The purpose is just Proof of concept for Flutter Bloc Version 6.
